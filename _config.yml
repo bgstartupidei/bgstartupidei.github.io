@@ -32,3 +32,5 @@ exclude:
 
 permalink: /:year/:month/:day/:title.html
 google_analytics: UA-59829770-5
+disqus:
+  shortname: bgstartpidei
