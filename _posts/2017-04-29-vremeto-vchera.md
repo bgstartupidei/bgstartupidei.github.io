@@ -14,6 +14,8 @@ image: vremeto-vchera.png
 
 Революционна технология, която помага да погледнем в миналото.
 
+![Времето вчера](/images/vremeto-vchera.png)
+
 Кодът е достъпен на [https://github.com/bgstartupidei/vremeto-vchera](https://github.com/bgstartupidei/vremeto-vchera).
 
 **Backend**: bash script (sed + curl)
