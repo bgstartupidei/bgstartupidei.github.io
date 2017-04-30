@@ -18,7 +18,7 @@ image: vremeto-vchera.png
 
 Кодът е достъпен на [https://github.com/bgstartupidei/vremeto-vchera](https://github.com/bgstartupidei/vremeto-vchera).
 
-**Backend**: bash script (sed + curl)
+**Backend**: `bash` + `sed` + `curl`
 
 **Frontend**: `HTML` и `JS`, който зарежда `JSON` данните. `underscore` за шаблони и `jQuery` Slim за закачане по DOM.
 
