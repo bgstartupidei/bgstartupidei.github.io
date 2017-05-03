@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "App,  който да показва какво е било времето вчера @iapostolov"
+title:  "App, който да показва какво е било времето вчера @iapostolov"
 date:   2017-04-29 09:49:00 +0200
 categories: проекти
 image: vremeto-vchera.png
