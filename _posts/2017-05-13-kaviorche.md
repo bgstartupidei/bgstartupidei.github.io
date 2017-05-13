@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Screen saver за умен телевизор, който да рисува ковьорче на екрана @suncho"
-date:   2017-05-13 19:00:00 +0200
+date:   2017-05-13 12:00:00 +0200
 categories: проекти
 image: kaviorche.png
 ---
