@@ -10,3 +10,13 @@ image: virtualna-kazarma.png
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Очаквайте скоро!
+[Виртуална казарма](http://virtualna-kazarma.bgstartupidei.com/) За тези, на които им липсва казармата. По-добра от виртуална реалност! По-добра дори от истинската реалност!
+
+![Виртуална казарма](/images/virtualna-kazarma.png)
+
+Кодът е достъпен на [https://github.com/bgstartupidei/kaviorche](https://github.com/bgstartupidei/virtualna-kazarma).
+
+**Engine**: [Undum](https://github.com/idmillington/undum).
+
+
+
