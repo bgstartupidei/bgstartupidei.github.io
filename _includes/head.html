@@ -9,14 +9,18 @@
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-  {% if page.title %}
+{% if page.title %}
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="{{ page.title | escape }}" />
   {% if page.image %}<meta property="og:image" content="{{ site.url }}/images/{{ page.image }}" />{% endif %}
-
-  {% endif %}
-  {% if jekyll.environment == 'production' and site.google_analytics %}
-  {% include google-analytics.html %}
-  {% endif %}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@aquilax" />
+  <meta name="twitter:title" content="{{ page.title | escape }}" />
+  <meta name="twitter:description" content="{{ page.title | escape }}" />
+  {% if page.image %}<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image }}" />{% endif %}
+{% endif %}
+{% if jekyll.environment == 'production' and site.google_analytics %}
+{% include google-analytics.html %}
+{% endif %}
 </head>
